@@ -1,9 +1,8 @@
-import { use } from "react";
+import { use, Suspense } from "react";
 import ProductCards from "./components/ProductCards";
 
-const Products = ({ productsPromise }) => {
+const Products = ({ productsPromise, cart, setCart }) => {
   const products = use(productsPromise);
-  
 
   return (
     <section className="py-16 bg-white">
@@ -11,8 +10,12 @@ const Products = ({ productsPromise }) => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
-            
-            <ProductCards product={product} />
+            <ProductCards 
+              key={product.id} 
+              product={product} 
+              cart={cart}
+              setCart={setCart}
+            />
           ))}
         </div>
       </div>
