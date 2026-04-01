@@ -19,6 +19,10 @@ const Cart = ({ cart, setCart }) => {
     <div className="p-10 max-w-7xl mx-auto">
       <h1 className="text-2xl font-bold mb-6">Your Cart</h1>
 
+      <div>
+        hello
+      </div>
+
       {cart.length === 0 ? (
         <p className="text-center text-2xl p-5">Cart is empty</p>
       ) : (
