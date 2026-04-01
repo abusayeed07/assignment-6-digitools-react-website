@@ -19,12 +19,13 @@ const Cart = ({ cart, setCart }) => {
     <div className="p-10 max-w-7xl mx-auto">
       <h1 className="text-2xl font-bold mb-6">Your Cart</h1>
 
-      <div>
-        hello
-      </div>
-
       {cart.length === 0 ? (
-        <p className="text-center text-2xl p-5">Cart is empty</p>
+        <>
+        <div className="items-center justify-center flex">
+        <svg fill="#000000" width="300px" height="300px" viewBox="-0.563 0 7.125 7.125" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><path d="M5.345 1.721a0.347 0.347 0 0 1 0.345 0.345v1.351a0.394 0.394 0 0 1 -0.344 0.381l-3.192 0.331a0.225 0.225 0 0 1 -0.054 0.007 0.216 0.216 0 1 0 0 0.433h3.183a0.211 0.211 0 1 1 0 0.422h-0.341a0.386 0.386 0 1 1 -0.414 0H2.568a0.386 0.386 0 1 1 -0.414 0H2.1a0.639 0.639 0 1 1 0 -1.277 0.225 0.225 0 0 1 0.048 0.005L1.167 1.467H0.521a0.211 0.211 0 1 1 0 -0.422h0.784a0.21 0.21 0 0 1 0.193 0.126l0.24 0.55h3.606z"/></svg>
+      </div>
+      <p className="text-center text-2xl p-5">Cart is empty</p>
+        </>
       ) : (
         <div className="border border-gray-200 rounded-2xl bg-white shadow-md overflow-hidden">
           {/* Products Container */}
