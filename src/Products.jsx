@@ -1,4 +1,4 @@
-import { use, Suspense } from "react";
+import { use } from "react";
 import ProductCards from "./components/ProductCards";
 
 const Products = ({ productsPromise, cart, setCart }) => {

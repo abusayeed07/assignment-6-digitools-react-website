@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 const ProductCards = ({ product, cart, setCart }) => {
   const isInCart = cart?.find((item) => item.id === product.id);
   const [isPurchased, setIsPurchased] = useState(!!isInCart);
-  const [isProcessing, setIsProcessing] = useState(false);
 
   useEffect(() => {
     const inCart = cart?.find((item) => item.id === product.id);
@@ -20,13 +19,10 @@ const ProductCards = ({ product, cart, setCart }) => {
       return;
     }
 
-    setIsProcessing(true);
-    
     // Simulate processing delay
     setTimeout(() => {
       setCart([...cart, product]);
       setIsPurchased(true);
-      setIsProcessing(false);
       
       if (product.price === 0) {
         toast.success("Free item added to cart!");
@@ -93,15 +89,14 @@ const ProductCards = ({ product, cart, setCart }) => {
       <div className="px-6 pb-6 pt-2">
         <button 
           onClick={handlePurchase}
-          disabled={isPurchased || isProcessing}
+          disabled={isPurchased}
           className={`btn w-full font-semibold py-3 px-4 shadow-sm rounded-4xl transition-colors ${
             isPurchased 
               ? "bg-gray-400 cursor-not-allowed text-white" 
               : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
           }`}
         >
-          {isProcessing ? "Processing..." : isPurchased ? "✓ Purchased" : "Buy Now"}
-          {!isPurchased && !isProcessing && <span className="ml-2">→</span>}
+          {isPurchased ? "✓ Purchased" : "Buy Now"}
         </button>
       </div>
     </div>
