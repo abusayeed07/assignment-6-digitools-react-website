@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create stunning, ATS-friendly resumes with AI-powered content suggestions and professional templates.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "100+ professional templates",
+      "ATS optimization score",
+      "AI content suggestions",
+      "Export to PDF & DOCX",
+      "Multiple resume versions",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Build stunning personal portfolios with drag-and-drop interface and customizable themes.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "features": [
+      "20+ portfolio templates",
+      "Custom domain support",
+      "Analytics dashboard",
+      "SEO optimization",
+      "Image gallery & sliders",
+      "Contact forms"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Interview Coach AI",
+    "description": "Practice interviews with AI-powered mock interviews and get real-time feedback on your responses.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "AI mock interviews",
+      "Real-time feedback",
+      "Industry-specific questions",
+      "Video recording",
+      "Progress tracking",
+      "Interview tips library"
+    ],
+    "icon": "🎯"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker Premium",
+    "description": "Organize and track your job applications with automated reminders and status updates.",
+    "price": 8.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "Unlimited job tracking",
+      "Application reminders",
+      "Status analytics",
+      "Chrome extension",
+      "Email integration",
+      "Export reports"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "name": "Skill Development Hub",
+    "description": "Access 500+ career development courses and certification programs from industry experts.",
+    "price": 299,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "500+ video courses",
+      "Certification programs",
+      "Progress tracking",
+      "Downloadable resources",
+      "Expert Q&A sessions",
+      "Community access"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 6,
+    "name": "Networking Assistant",
+    "description": "Smart LinkedIn networking tool that helps you connect with recruiters and industry professionals.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "Smart connection suggestions",
+      "Message templates",
+      "Profile optimization tips",
+      "Networking analytics",
+      "Event finder",
+      "Follow-up reminders"
+    ],
+    "icon": "🤝"
+  },
+  {
+    "id": 7,
+    "name": "Salary Calculator Plus",
+    "description": "Real-time salary insights and negotiation tools to help you get the best compensation package.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "features": [
+      "Real-time salary data",
+      "Negotiation scripts",
+      "Benefits calculator",
+      "Cost of living comparison",
+      "Market insights",
+      "PDF reports"
+    ],
+    "icon": "💰"
+  },
+  {
+    "id": 8,
+    "name": "Resume Scanner AI",
+    "description": "Advanced AI-powered resume scanning tool that analyzes and optimizes your resume for any job posting.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "ATS compatibility check",
+      "Keyword optimization",
+      "Grammar & spelling check",
+      "Formatting suggestions",
+      "Job description matching",
+      "Instant scoring"
+    ],
+    "icon": "🔍"
+  },
+  {
+    "id": 9,
+    "name": "Career Path Planner",
+    "description": "Visual career mapping tool that helps you plan your professional growth and skill acquisition.",
+    "price": 39.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "Career path visualization",
+      "Skill gap analysis",
+      "Milestone tracking",
+      "Mentor matching",
+      "Goal setting tools",
+      "Progress reports"
+    ],
+    "icon": "🗺️"
+  },
+  {
+    "id": 10,
+    "name": "Email Outreach Pro",
+    "description": "Professional email templates and automation tools for job applications and networking.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "100+ email templates",
+      "Personalization tags",
+      "Follow-up automation",
+      "Open tracking",
+      "A/B testing",
+      "Analytics dashboard"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 11,
+    "name": "Personal Branding Kit",
+    "description": "Complete toolkit to build and enhance your personal brand across social media and professional platforms.",
+    "price": 34.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "Personal brand strategy guide",
+      "Social media content calendar",
+      "Professional bio templates",
+      "LinkedIn optimization tools",
+      "Personal website builder",
+      "Brand consistency checker"
+    ],
+    "icon": "✨"
+  },
+  {
+    "id": 12,
+    "name": "Freelance Business Manager",
+    "description": "All-in-one platform to manage your freelance business, from client onboarding to invoice payments.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "features": [
+      "Client management system",
+      "Invoice & payment tracking",
+      "Contract templates",
+      "Time tracking tools",
+      "Tax preparation helper",
+      "Project management dashboard"
+    ],
+    "icon": "💼"
+  }
+]
