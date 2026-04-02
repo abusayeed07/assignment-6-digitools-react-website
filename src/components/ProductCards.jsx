@@ -19,17 +19,14 @@ const ProductCards = ({ product, cart, setCart }) => {
       return;
     }
 
-    // Simulate processing delay
-    setTimeout(() => {
-      setCart([...cart, product]);
-      setIsPurchased(true);
-      
-      if (product.price === 0) {
-        toast.success("Free item added to cart!");
-      } else {
-        toast.success("Item added to cart!");
-      }
-    }, 1000);
+    setCart(prevCart => [...prevCart, product]);
+    setIsPurchased(true);
+    
+    if (product.price === 0) {
+      toast.success("Free item added to cart!");
+    } else {
+      toast.success("Item added to cart!");
+    }
   };
 
   return (
@@ -90,13 +87,14 @@ const ProductCards = ({ product, cart, setCart }) => {
         <button 
           onClick={handlePurchase}
           disabled={isPurchased}
-          className={`btn w-full font-semibold py-3 px-4 shadow-sm rounded-4xl transition-colors ${
+          className={`btn w-full font-semibold py-6 px-4 shadow-sm rounded-4xl transition-colors ${
             isPurchased 
               ? "bg-gray-400 cursor-not-allowed text-white" 
-              : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+              : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white hover:opacity-90"
           }`}
         >
           {isPurchased ? "✓ Purchased" : "Buy Now"}
+          {!isPurchased && <span className="ml-2">→</span>}
         </button>
       </div>
     </div>
